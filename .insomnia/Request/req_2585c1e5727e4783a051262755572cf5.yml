@@ -1,0 +1,29 @@
+_id: req_2585c1e5727e4783a051262755572cf5
+type: Request
+parentId: fld_5e4a5b339bf34941bc41feb42d386446
+modified: 1650609494132
+created: 1649062358023
+url: https://api.telegram.org/TOKEN/setWebhook
+name: setWebhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"url": "https://successmobile.ru/index.php?dispatch=yes_telegram.webhook"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_61a7fe6e84634c9bbd83808a837bf2d7
+authentication: {}
+metaSortKey: -1650567988351.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

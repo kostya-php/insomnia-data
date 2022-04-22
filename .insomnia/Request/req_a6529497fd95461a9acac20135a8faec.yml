@@ -1,0 +1,29 @@
+_id: req_a6529497fd95461a9acac20135a8faec
+type: Request
+parentId: fld_d3f9c793d8ba43be93d3f0130bd51716
+modified: 1650609565547
+created: 1649918279607
+url: http://mikrosrv.yes-holding.ru:7887/work/hs/reserve/view
+name: Финансы
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id": 2034
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9fd373a9dccb48948c33b9d81a04580a
+authentication: {}
+metaSortKey: -1649057990905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

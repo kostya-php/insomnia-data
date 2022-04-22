@@ -1,0 +1,30 @@
+_id: req_784742556cad4360a77a82171466311d
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650526723627
+created: 1650525037736
+url: http://successmobile.loc/api/VendorInvoises
+name: getInvoices
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d1bffd7e9e914448b6be7b06e72323a7
+    name: category_ids
+    value: "317"
+    description: ""
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: aisaev@krutoff.net
+  password: 1Wk90XzkmJ86xpJ44P7Ck2t262Rc4E06
+metaSortKey: -1649757593630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

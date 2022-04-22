@@ -1,0 +1,33 @@
+_id: req_4d81e477df024a688f151915e4c9211b
+type: Request
+parentId: fld_e34da37a74094107aee63f1cae88ea5c
+modified: 1650610006347
+created: 1650609968131
+url: https://speller.yandex.net/services/spellservice.json/checkText
+name: Yandex Speller
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a7c12a5feafe40ccbd6d6431f7a459b1
+    name: text
+    value: самсунг
+    description: ""
+  - id: pair_d50fb31e15f442cd84f7b52e7c2b492b
+    name: lang
+    value: ru,en
+    description: ""
+  - id: pair_cd843428a2524b589ff960dff8d340da
+    name: options
+    value: "0"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1650609968131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_f1b802efc04a4748b28f9580202c9816
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650609503633
+created: 1650277675501
+url: http://successmobile.loc/api/authTokens
+name: authTokens
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "aisaev@krutoff.net",
+    	"password": "test123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7798be888ee54e5784d652bc9c35f22e
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: YWRtaW5AZXhhbXBsZS5jb20=
+  password: 5FZT1Cx91FqUu511eW6L1vlyZ12XwmH3
+metaSortKey: -1650277675501
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_79754cacc7fe4a839e7ab42aeb674a68
+type: Request
+parentId: fld_5e4a5b339bf34941bc41feb42d386446
+modified: 1650609531850
+created: 1649683296227
+url: https://api.telegram.org/TOKEN
+name: getFullUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id": 431123748
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_70a80774cfab48dd9aca9dfd2c4dc168
+authentication: {}
+metaSortKey: -1650567988251.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

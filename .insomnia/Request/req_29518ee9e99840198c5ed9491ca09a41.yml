@@ -1,0 +1,26 @@
+_id: req_29518ee9e99840198c5ed9491ca09a41
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650529200100
+created: 1650529184184
+url: http://successmobile.loc/api/VendorInvoises/108
+name: deleteInvoice
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: aisaev@krutoff.net
+  password: 1Wk90XzkmJ86xpJ44P7Ck2t262Rc4E06
+metaSortKey: -1649692583402.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

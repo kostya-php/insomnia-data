@@ -1,0 +1,41 @@
+_id: req_94435d8db4774718b83b4e01cb6211d5
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650609508406
+created: 1650287459420
+url: http://successmobile.loc/api/VendorProducts
+name: createProduct
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"product": "My Awesome Product test",
+    	"category_ids": [317],
+    	"main_image_url": "https://www.culture.ru/storage/images/ee686c5b-7773-53a6-8e81-dd4b3f03f09a",
+    	"additional_image_urls": [
+    		"https://www.zastavki.com/pictures/originals/2018Food___Cakes_and_Sweet_Beautiful_cake_with_souffl___chocolate_and_berries_125943_.jpg",
+    		"https://sedelice.ru/uploads/torty/torty-na-zakaz.jpg"
+    	],
+    	"amount_d": 20
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dd1aa5dd7ea54120a6b623030c1dd416
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: aisaev@krutoff.net
+  password: 01rbz8Mo8h30b12qEU62Gb5l6n46e07S
+metaSortKey: -1650277675451
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

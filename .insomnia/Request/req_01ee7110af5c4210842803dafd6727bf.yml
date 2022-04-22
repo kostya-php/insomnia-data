@@ -1,0 +1,34 @@
+_id: req_01ee7110af5c4210842803dafd6727bf
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650609511693
+created: 1650524099419
+url: http://successmobile.loc/api/VendorProducts/7374659
+name: updateProduct
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount_d": 30
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dd1aa5dd7ea54120a6b623030c1dd416
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: aisaev@krutoff.net
+  password: 01rbz8Mo8h30b12qEU62Gb5l6n46e07S
+metaSortKey: -1649980485839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

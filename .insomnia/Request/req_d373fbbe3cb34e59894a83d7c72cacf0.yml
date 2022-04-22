@@ -1,0 +1,47 @@
+_id: req_d373fbbe3cb34e59894a83d7c72cacf0
+type: Request
+parentId: fld_67e5719018514064a1d7d6ffedde3d6f
+modified: 1650609514835
+created: 1650526826942
+url: http://successmobile.loc/api/VendorInvoises
+name: createInvoice
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"products": [
+    		{
+    			"vendor_code": "03572",
+    			"name": "test",
+    			"category_id": 1,
+    			"amount": 1,
+    			"price": 100,
+    			"brand": "brand"
+    		}
+    	]
+    }
+parameters:
+  - id: pair_d1bffd7e9e914448b6be7b06e72323a7
+    name: category_ids
+    value: "317"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b722b1ed248540de9b2e0b26ac8684ab
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: aisaev@krutoff.net
+  password: 1Wk90XzkmJ86xpJ44P7Ck2t262Rc4E06
+metaSortKey: -1649720444928.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
