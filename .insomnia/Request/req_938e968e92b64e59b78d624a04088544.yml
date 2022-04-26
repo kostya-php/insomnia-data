@@ -1,7 +1,7 @@
 _id: req_938e968e92b64e59b78d624a04088544
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650538404347
+modified: 1650868472895
 created: 1650524481475
 url: http://successmobile.loc/api/VendorFeatures
 name: getProductFeatures
@@ -19,7 +19,7 @@ authentication:
   useISO88591: false
   disabled: false
   username: aisaev@krutoff.net
-  password: 1Wk90XzkmJ86xpJ44P7Ck2t262Rc4E06
+  password: f0Q3d2xk4Q3BX92y66fzL7hUCx6z3819
 metaSortKey: -1649831891033
 isPrivate: false
 settingStoreCookies: true

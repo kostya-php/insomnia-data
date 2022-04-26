@@ -1,43 +1,35 @@
-_id: req_1c887fac67de4d36bd73aa3e3c4490de
+_id: req_97aca809096c4cda9fc94b9b7cadfd66
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650867705994
-created: 1650528927356
-url: http://successmobile.loc/api/VendorInvoises/97
-name: updateInvoice
+modified: 1650867967716
+created: 1650621697925
+url: http://successmobile.loc/api/VendorPricesRemains
+name: updatePricesRemains
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"products": [
-    		{
-    			"vendor_code": "03572",
-    			"name": "test",
-    			"category_id": 1,
-    			"amount": 1,
+    	"product_data": {
+    		"7778889999": {
     			"price": 100,
-    			"brand": "brand"
+    			"remains": 100
     		}
-    	]
+    	}
     }
-parameters:
-  - id: pair_d1bffd7e9e914448b6be7b06e72323a7
-    name: category_ids
-    value: "317"
-    description: ""
+parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_b722b1ed248540de9b2e0b26ac8684ab
+    id: pair_dd1aa5dd7ea54120a6b623030c1dd416
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: aisaev@krutoff.net
   password: f0Q3d2xk4Q3BX92y66fzL7hUCx6z3819
-metaSortKey: -1649701870577.75
+metaSortKey: -1649692583352.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

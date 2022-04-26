@@ -1,14 +1,18 @@
-_id: req_29518ee9e99840198c5ed9491ca09a41
+_id: req_050d94936da6481f8600735d4c47800d
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650867764567
-created: 1650529184184
-url: http://successmobile.loc/api/VendorInvoises/99
-name: deleteInvoice
+modified: 1650959725516
+created: 1650959719652
+url: http://successmobile.loc/api/VendorReserves/1
+name: deleteReserve
 description: ""
 method: DELETE
 body: {}
-parameters: []
+parameters:
+  - id: pair_a40a1d3e25684e19b96bcb089444fc8e
+    name: action
+    value: unconfirmed
+    description: ""
 headers: []
 authentication:
   type: basic
@@ -16,7 +20,7 @@ authentication:
   disabled: false
   username: aisaev@krutoff.net
   password: f0Q3d2xk4Q3BX92y66fzL7hUCx6z3819
-metaSortKey: -1649692583402.375
+metaSortKey: -1649375287128.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
