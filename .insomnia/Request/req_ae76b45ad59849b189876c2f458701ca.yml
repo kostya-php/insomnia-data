@@ -1,26 +1,36 @@
-_id: req_ea326ba2e92c418990ede7a0de5af9d9
+_id: req_ae76b45ad59849b189876c2f458701ca
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1651053289261
-created: 1650881392410
+modified: 1651053430042
+created: 1651045917590
 url: http://successmobile.loc/api/VendorReserves
-name: getReserves
+name: deleteReserves
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"action": "delete",
+    	"order": "2520497",
+    	"productcode": "351567"
+    }
 parameters:
   - id: pair_a40a1d3e25684e19b96bcb089444fc8e
     name: action
     value: unconfirmed
     description: ""
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45d71f1eb94e414187427abd75848490
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: mc@borasco.ru
   password: rS329yN4E3cVm5l9oR2Z7V2eL82f6e6P
-metaSortKey: -1649692583302.375
+metaSortKey: -1649454611172.1094
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

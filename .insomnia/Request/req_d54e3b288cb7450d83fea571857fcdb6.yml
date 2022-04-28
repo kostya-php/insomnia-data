@@ -1,10 +1,10 @@
-_id: req_ea326ba2e92c418990ede7a0de5af9d9
+_id: req_d54e3b288cb7450d83fea571857fcdb6
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1651053289261
-created: 1650881392410
-url: http://successmobile.loc/api/VendorReserves
-name: getReserves
+modified: 1651064097947
+created: 1651064091392
+url: http://successmobile.loc/api/VendorCategories
+name: getCategories
 description: ""
 method: GET
 body: {}
@@ -20,7 +20,7 @@ authentication:
   disabled: false
   username: mc@borasco.ru
   password: rS329yN4E3cVm5l9oR2Z7V2eL82f6e6P
-metaSortKey: -1649692583302.375
+metaSortKey: -1649375287078.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_94435d8db4774718b83b4e01cb6211d5
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650868241048
+modified: 1651065461795
 created: 1650287459420
 url: http://successmobile.loc/api/VendorProducts
 name: createProduct
