@@ -1,7 +1,7 @@
 _id: req_97aca809096c4cda9fc94b9b7cadfd66
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650867967716
+modified: 1651748094941
 created: 1650621697925
 url: http://successmobile.loc/api/VendorPricesRemains
 name: updatePricesRemains

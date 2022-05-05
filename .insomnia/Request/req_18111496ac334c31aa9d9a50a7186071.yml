@@ -1,7 +1,7 @@
 _id: req_18111496ac334c31aa9d9a50a7186071
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1651053322850
+modified: 1651753329539
 created: 1651043336967
 url: http://successmobile.loc/api/VendorReserves
 name: confirmReserves
@@ -11,15 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"send_invoice": true,
+    	"receipt_timestamp": "05/05/2022",
+    	"description": "",
     	"action": "confirm",
     	"reserves": {
-    		"2520497": {
-    			"351567": "351567"
+    		"2524353": {
+    			"70398": "70398"
     		}
     	},
     	"reserves_amount": {
-    		"2520497": {
-    			"351567": "1"
+    		"2524353": {
+    			"70398": "1"
     		}
     	}
     }
@@ -33,7 +36,7 @@ authentication:
   useISO88591: false
   disabled: false
   username: mc@borasco.ru
-  password: rS329yN4E3cVm5l9oR2Z7V2eL82f6e6P
+  password: 8f57ocN2TH137Z2qoo8r8416s3c2X28p
 metaSortKey: -1649533935215.5312
 isPrivate: false
 settingStoreCookies: true

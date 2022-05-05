@@ -1,9 +1,9 @@
 _id: req_1c887fac67de4d36bd73aa3e3c4490de
 type: Request
 parentId: fld_67e5719018514064a1d7d6ffedde3d6f
-modified: 1650867705994
+modified: 1651751565310
 created: 1650528927356
-url: http://successmobile.loc/api/VendorInvoises/97
+url: http://successmobile.loc/api/VendorInvoises/127
 name: updateInvoice
 description: ""
 method: PUT
@@ -11,6 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"send": true,
+    	"receipt_timestamp": "05/05/2022",
+    	"description": "",
     	"products": [
     		{
     			"vendor_code": "03572",
@@ -36,7 +39,7 @@ authentication:
   useISO88591: false
   disabled: false
   username: aisaev@krutoff.net
-  password: f0Q3d2xk4Q3BX92y66fzL7hUCx6z3819
+  password: 71Nscy690YT265Qo680335g72cl4Y4Z3
 metaSortKey: -1649701870577.75
 isPrivate: false
 settingStoreCookies: true
